@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MissingUnova"
+    android:background="@drawable/unovabg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tornadusN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/tornadusN"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"/>
+
+            <Switch
+                android:id="@+id/tornadusNToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tornadusN" />
+
+            <TextView
+                android:id="@+id/thundurusN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/thundurusN"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tornadusNToggle"/>
+
+            <Switch
+                android:id="@+id/thundurusNToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/thundurusN" />
+
+            <TextView
+                android:id="@+id/thundurusT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/thundurusT"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/thundurusNToggle"/>
+
+            <Switch
+                android:id="@+id/thundurusTToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/thundurusT" />
+
+            <TextView
+                android:id="@+id/landorusN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/landorusN"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/thundurusTToggle"/>
+
+            <Switch
+                android:id="@+id/landorusNToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/landorusN" />
+
+            <TextView
+                android:id="@+id/landorusT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/landorusT"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/landorusNToggle"/>
+
+            <Switch
+                android:id="@+id/landorusTToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/landorusT" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/save"
+                android:layout_below="@+id/landorusTToggle"
+                android:layout_marginTop="10dp">
+            </Button>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

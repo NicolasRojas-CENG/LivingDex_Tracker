@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MissingSinho"
+    android:background="@drawable/sinhobg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/cranidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/cranidos"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"/>
+
+            <Switch
+                android:id="@+id/cranidosToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/cranidos" />
+
+            <TextView
+                android:id="@+id/stunky"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/stunky"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/cranidosToggle"/>
+
+            <Switch
+                android:id="@+id/stunkyToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/stunky" />
+
+            <TextView
+                android:id="@+id/skuntank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/skuntank"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/stunkyToggle"/>
+
+            <Switch
+                android:id="@+id/skuntankToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/skuntank" />
+
+            <TextView
+                android:id="@+id/chatot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/chatot"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/skuntankToggle"/>
+
+            <Switch
+                android:id="@+id/chatotToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/chatot" />
+
+            <TextView
+                android:id="@+id/tangrowth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/tangrowth"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/chatotToggle"/>
+
+            <Switch
+                android:id="@+id/tangrowthToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tangrowth" />
+
+            <TextView
+                android:id="@+id/electivire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/electivire"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tangrowthToggle"/>
+
+            <Switch
+                android:id="@+id/electivireToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/electivire" />
+
+            <TextView
+                android:id="@+id/magmortar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/magmortar"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/electivireToggle"/>
+
+            <Switch
+                android:id="@+id/magmortarToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/magmortar" />
+
+            <TextView
+                android:id="@+id/yanmega"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/yanmega"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/magmortarToggle"/>
+
+            <Switch
+                android:id="@+id/yanmegaToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/yanmega" />
+
+            <TextView
+                android:id="@+id/mamoswine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/mamoswine"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/yanmegaToggle"/>
+
+            <Switch
+                android:id="@+id/mamoswineToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/mamoswine" />
+
+            <TextView
+                android:id="@+id/froslass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/froslass"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/mamoswineToggle"/>
+
+            <Switch
+                android:id="@+id/froslassToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/froslass" />
+
+            <TextView
+                android:id="@+id/dialga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/dialga"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/froslassToggle"/>
+
+            <Switch
+                android:id="@+id/dialgaToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/dialga" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/save"
+                android:layout_below="@+id/dialgaToggle"
+                android:layout_marginTop="10dp">
+            </Button>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

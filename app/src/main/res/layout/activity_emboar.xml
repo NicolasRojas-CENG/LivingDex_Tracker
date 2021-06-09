@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emboar"
+    android:background="@drawable/firebg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/emboarImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="500dp"
+                android:src="@drawable/emboar"
+                android:contentDescription="@string/emboarDes" />
+
+            <TextView
+                android:id="@+id/emboarInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/emboarImg"
+                android:textAllCaps="false"
+                android:text="@string/emboarInfo"
+                android:textSize="15pt"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/leavannyImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/emboarInfo"
+                android:layout_height="500dp"
+                android:src="@drawable/leavanny"
+                android:contentDescription="@string/leavannyDes" />
+
+            <TextView
+                android:id="@+id/leavannyInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/leavannyImg"
+                android:textAllCaps="false"
+                android:text="@string/leavannyInfo"
+                android:textSize="15pt"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/magnezoneImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/leavannyInfo"
+                android:layout_height="500dp"
+                android:src="@drawable/magnezone"
+                android:contentDescription="@string/magnezoneDes" />
+
+            <TextView
+                android:id="@+id/magnezoneInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/magnezoneImg"
+                android:textAllCaps="false"
+                android:text="@string/magnezoneInfo"
+                android:textSize="15pt"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/vaporeonImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/magnezoneInfo"
+                android:layout_height="500dp"
+                android:src="@drawable/vaporeon"
+                android:contentDescription="@string/vaporeonDes" />
+
+            <TextView
+                android:id="@+id/vaporeonInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/vaporeonImg"
+                android:textAllCaps="false"
+                android:text="@string/vaporeonInfo"
+                android:textSize="15pt"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/flygonImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/vaporeonInfo"
+                android:layout_height="500dp"
+                android:src="@drawable/flygon"
+                android:contentDescription="@string/flygonDes" />
+
+            <TextView
+                android:id="@+id/flygonInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/flygonImg"
+                android:layout_centerHorizontal="true"
+                android:text="@string/flygonInfoU"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="15pt" />
+
+            <ImageView
+                android:id="@+id/zoroarkImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/flygonInfo"
+                android:layout_height="500dp"
+                android:src="@drawable/zoroark"
+                android:contentDescription="@string/zoroarkDes" />
+
+            <TextView
+                android:id="@+id/zoroarkInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zoroarkImg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-35dp"
+                android:text="@string/zoroarkInfo"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="15pt" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

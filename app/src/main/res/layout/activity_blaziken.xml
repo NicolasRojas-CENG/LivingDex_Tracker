@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blaziken"
+    android:background="@drawable/firebg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/blazikenImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="500dp"
+                android:src="@drawable/blaziken"
+                android:contentDescription="@string/blazikenDes" />
+
+            <TextView
+                android:id="@+id/blazikenInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/blazikenImg"
+                android:textAllCaps="false"
+                android:text="@string/blazikenInfo"
+                android:textSize="15pt"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/gyaradosImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/blazikenInfo"
+                android:layout_height="500dp"
+                android:src="@drawable/gyarados"
+                android:contentDescription="@string/gyaradosDes" />
+
+            <TextView
+                android:id="@+id/gyaradosInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/gyaradosImg"
+                android:textAllCaps="false"
+                android:text="@string/gyaradosInfo"
+                android:textSize="15pt"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/flygonImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/gyaradosInfo"
+                android:layout_height="500dp"
+                android:src="@drawable/flygon"
+                android:contentDescription="@string/flygonDes" />
+
+            <TextView
+                android:id="@+id/flygonInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/flygonImg"
+                android:textAllCaps="false"
+                android:text="@string/flygonInfo"
+                android:textSize="15pt"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/gardevoirImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/flygonInfo"
+                android:layout_height="500dp"
+                android:src="@drawable/gardevoir"
+                android:contentDescription="@string/gardevoirDes" />
+
+            <TextView
+                android:id="@+id/gardevoirInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/gardevoirImg"
+                android:textAllCaps="false"
+                android:text="@string/gardevoirInfo"
+                android:textSize="15pt"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/cradilyImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/gardevoirInfo"
+                android:layout_height="500dp"
+                android:src="@drawable/cradily"
+                android:contentDescription="@string/cradilyDes" />
+
+            <TextView
+                android:id="@+id/cradilyInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cradilyImg"
+                android:layout_centerHorizontal="true"
+                android:text="@string/cradilyInfo"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="15pt" />
+
+            <ImageView
+                android:id="@+id/crobatImg"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/cradilyInfo"
+                android:layout_height="500dp"
+                android:src="@drawable/crobat"
+                android:contentDescription="@string/crobatDes" />
+
+            <TextView
+                android:id="@+id/crobatInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/crobatImg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-35dp"
+                android:text="@string/crobatInfo"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="15pt" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
