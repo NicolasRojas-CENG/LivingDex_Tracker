@@ -9,6 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Gen4Shinies"></activity>
+        <activity android:name=".MissingGalar" />
+        <activity android:name=".Emboar" />
+        <activity android:name=".BestTeamUnova" />
+        <activity android:name=".BestTeamHub" />
+        <activity android:name=".MissingKalos" />
+        <activity android:name=".MissingUnova" />
+        <activity android:name=".MissingSinho" />
+        <activity android:name=".MissingHoenn" />
+        <activity android:name=".MissingHub" />
+        <activity android:name=".Blaziken" />
+        <activity android:name=".BestTeamHoenn" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
