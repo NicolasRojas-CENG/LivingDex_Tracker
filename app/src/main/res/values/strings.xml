@@ -1,3 +1,419 @@
 <resources>
     <string name="app_name">LivingDex_Tracker</string>
+
+
+    <!-- Best team for gen 3  (torchic) -->
+
+    <string name="blazikenInfo"><b>Blaziken</b>\n
+        <b>Levels:</b> 1 -> 16 -> 36\n
+            <b>Moves</b>\n
+                Bulk Up -> lvl28 \n
+                Flamethrower - > Mauville Game Corner $4000 \n
+                Brick Break -> Sootopolis City \n
+                Ariel Ace -> Winona
+    </string>
+    <string name="blazikenDes">Image of Blaziken</string>
+
+    <string name="gyaradosInfo"><b>Gyarados</b>\n
+        <b>Levels:</b> 1 -> 20\n
+            <b>Moves</b>\n
+                Surf -> HM \n
+                Waterfall - > HM \n
+                Ice Beam -> Abandoned Ship \n
+                Return -> Pacificlog Town
+    </string>
+    <string name="gyaradosDes">Image of Gyarados</string>
+
+    <string name="flygonInfo"><b>Flygon</b>\n
+        <b>Level:</b> 1 -> 35 -> 45\n
+            <b>Moves</b>\n
+                Earthquake -> Seafloor Cavern final room \n
+                Dragon Claw - > Meteor Falls \n
+                Crunch -> lvl33 \n
+                Rock Tomb -> Roxanne
+    </string>
+    <string name="flygonDes">Image of Flygon</string>
+
+    <string name="gardevoirInfo"><b>Gardevoir</b>\n
+        <b>Level:</b> 1 -> 20 -> 30\n
+            <b>Moves</b>\n
+                Calm Mind ->lvl21 \n
+                Psychic - > lvl26 \n
+                Shadow Ball -> Mnt. Pyre \n
+                Thunderbolt -> New Mauville
+    </string>
+    <string name="gardevoirDes">Image of Gardevoir</string>
+
+    <string name="cradilyInfo"><b>Cradily</b>\n
+        <b>Level:</b> 1 -> 40\n
+            <b>Moves</b>\n
+                Giga Drain -> Route 123 \n
+                Toxic - > Firery Path \n
+                Ancient Power -> lvl 48 \n
+                Confuse Ray -> lvl2
+    </string>
+    <string name="cradilyDes">Image of Cradily</string>
+
+    <string name="crobatInfo"><b>Crobat</b>\n
+        <b>Level:</b> 1 -> 22 -> friendship\n
+            <b>Moves</b>\n
+                Fly -> HM \n
+                Wing Attack - > lvl21 \n
+                Sludge Bomb -> Dewford Town after Norman \n
+                Steel Wing -> Granite Cave \n\n
+    </string>
+    <string name="crobatDes">Image of Crobat</string>
+
+    <!-- Best Team for Gen 5 (tepig) -->
+
+    <string name="emboarInfo"><b>Emboar</b>\n
+        <b>Nature:</b> Adamant\n
+            <b>Levels:</b> 1 -> 17 -> 36\n
+            <b>Moves</b>\n
+                Flare Blitz -> lvl62 \n
+                Brick Break - > TM31 Pokémon World Tournament \n
+                Stone Edge -> TM71 Twist Mountain (B1F) \n
+                Earthquake -> TM26 Route 15
+    </string>
+    <string name="emboarDes">Image of Emboar</string>
+
+    <string name="leavannyInfo"><b>Leavanny</b>\n
+        <b>Nature:</b> Adamant\n
+            <b>Levels:</b> 1 -> 20 -> friendship\n
+                <b>Moves</b>\n
+                    Leaf Blade -> lvl36 \n
+                    X-Scissor - > lvl39 \n
+                    Swords Dance -> lvl46 \n
+                    Poison Jab -> TM84 Moor of Icirrus
+    </string>
+    <string name="leavannyDes">Image of Leavanny</string>
+
+    <string name="magnezoneInfo"><b>Magnezone</b>\n
+        <b>Nature:</b> Modest\n
+            <b>Level:</b> 1 -> 33 -> ChargedStone Cave\n
+                <b>Moves</b>\n
+                    Thunderbolt -> TM24 Victory Road (after hugh) \n
+                    Flash Cannon - > TM91 Twist Mountain (2F) \n
+                    Tri Attack -> Move Relearner (as Magneton) \n
+                    Signal Beam -> Move Tutor (as Magneton)
+    </string>
+    <string name="magnezoneDes">Image of Magnezone</string>
+
+    <string name="vaporeonInfo"><b>Vaporeon</b>\n
+        <b>Nature:</b> Modest\n
+            <b>Level:</b> 1 -> Water Stone\n
+                <b>Moves</b>\n
+                    Surf -> HM \n
+                    Ice Beam - > TM13 Giant Chasm (Cave 1F) \n
+                    Toxic -> TM06 Seaside Cave (1F) \n
+                    Shadow ball -> TM30 Reversal Mountain (behind Strange House)
+    </string>
+    <string name="vaporeonDes">Image of Vaporeon</string>
+
+    <string name="flygonInfoU"><b>Flygon</b>\n
+        <b>Nature:</b> Adamant\n
+            <b>Level:</b> 1 -> 35 -> 45\n
+                <b>Moves</b>\n
+                    Dragon Claw -> lvl55 \n
+                    Earthquake -> TM26 Route 15 \n
+                    Stone Edge -> TM71 Twist Mountain (B1F) \n
+                    Fly -> HM
+    </string>
+
+
+    <string name="zoroarkInfo"><b>Zoroark</b>\n
+        <b>Nature:</b> Modest\n
+            <b>Level:</b> 1 -> 30\n
+                <b>Moves</b>\n
+                    Nasty Plot -> lvl54 \n
+                    Dark Pulse - > Move Tutor \n
+                    Flamethrower -> TM35 Route 23 (House) \n
+                    Focus Blast -> TM52 Wellspring Cave (B1F)\n\n
+    </string>
+    <string name="zoroarkDes">Image of Zoroark</string>
+
+    <!-- Missing pokêmon for gen 3 -->
+
+    <string name="treecko">Treecko</string>
+    <string name="grovyle">Grovyle</string>
+    <string name="sceptile">Sceptile</string>
+    <string name="torchic">Torchic</string>
+    <string name="combusken">Combusken</string>
+    <string name="blaziken">Blaziken</string>
+    <string name="mudkip">Mudkip</string>
+    <string name="marshtomp">Marshtomp</string>
+    <string name="swampert">Swampert</string>
+    <string name="nuzleaf">Nuzleaf</string>
+    <string name="shiftry">Shiftry</string>
+    <string name="solrock">Solrock</string>
+    <string name="crawdunt">Crawdunt</string>
+    <string name="milotic">Milotic</string>
+    <string name="huntail">Huntail</string>
+    <string name="gorebyss">Gorebyss</string>
+    <string name="luvdisc">luvdisc</string>
+    <string name="beldum">Beldum</string>
+    <string name="metang">Metang</string>
+    <string name="latios">Latios</string>
+    <string name="groudon">Groudon</string>
+
+    <!-- Missing pokêmon for gen 4 -->
+
+    <string name="cranidos">Cranidos</string>
+    <string name="stunky">Stunky</string>
+    <string name="skuntank">Skuntank</string>
+    <string name="chatot">Chatot</string>
+    <string name="tangrowth">Tangrowth</string>
+    <string name="electivire">Electivire</string>
+    <string name="magmortar">Magmortar</string>
+    <string name="yanmega">Yanmega</string>
+    <string name="mamoswine">Mamoswine</string>
+    <string name="froslass">Froslass</string>
+    <string name="dialga">Dialga</string>
+
+    <!-- Missing pokêmon for gen 5 -->
+
+    <string name="tornadusN">Tornadus (normal)</string>
+    <string name="thundurusN">Thundurus (normal)</string>
+    <string name="thundurusT">Thundurus (therian)</string>
+    <string name="landorusN">Landorus (normal)</string>
+    <string name="landorusT">Landorus (therian)</string>
+
+    <!-- Missing pokêmon for gen 6 -->
+
+    <string name="yveltal">Yveltal</string>
+
+    <!-- Missing pokêmon for gen 7 -->
+
+    <string name="lycanrocD">Lycanroc (dusk) (normal)</string>
+    <string name="poipole">poipole</string>
+    <string name="naganadel">Naganadel</string>
+    <string name="blacephalon">Blacephalon</string>
+    <string name="meltan">Meltan</string>
+    <string name="melmetal">Melmetal</string>
+
+    <!-- Missing pokêmon for gen 8 -->
+
+    <string name="appletun">Appletun</string>
+    <string name="cursola">Cursola</string>
+    <string name="alcremieVanilla">Alcremie Vanilla</string>
+    <string name="alcremieRuby">Alcremie Ruby</string>
+    <string name="alcremieMatcha">Alcremie Matcha</string>
+    <string name="alcremieMint">Alcremie Mint</string>
+    <string name="alcremieLemon">Alcremie Lemon</string>
+    <string name="alcremieSalted">Alcremie Salted</string>
+    <string name="alcremieRubySwirl">Alcremie Ruby Swirl</string>
+    <string name="alcremieCaramelSwirl">Alcremie Caramel Swirl</string>
+    <string name="alcremieRainbowSwirl">Alcremie Rainbow Swirl</string>
+    <string name="eiscue">Eiscue</string>
+    <string name="indeedeeF">Indeedee (female)</string>
+    <string name="zamazenta">Zamazenta</string>
+    <string name="kubfu">Kubfu</string>
+    <string name="urshifuD">Urshifu (dark)</string>
+    <string name="urshifuW">Urshifu (water)</string>
+    <string name="regieleki">Regieleki</string>
+    <string name="regidrago">Regidrago</string>
+    <string name="glastrier">Glastrier</string>
+    <string name="spectrier">Spectrier</string>
+    <string name="calyrex">Calyrex</string>
+
+    <!-- Dynamax Pokémon -->
+
+    <string name="gbutterfree">G-max Butterfree</string>
+    <string name="gmelmetal">G-max Melmetal</string>
+    <string name="gcorviknight">G-max Corviknight</string>
+    <string name="gdrednaw">G-max Drednaw</string>
+    <string name="gcoalossal">G-max Coalossal</string>
+    <string name="gflapple">G-max Flapple</string>
+    <string name="gtoxtricity">G-max Toxtricity</string>
+    <string name="gcentiskorch">G-max Centiskorch</string>
+    <string name="galcremie">G-max Alcremie (check above)</string>
+    <string name="gcopperajah">G-max Copperajah</string>
+    <string name="gvenusaur">G-max Venusaur</string>
+    <string name="gblastoise">G-max Blastoise</string>
+    <string name="grillaboom">G-max Rillaboom</string>
+    <string name="gcinderace">G-max Cinderace</string>
+    <string name="ginteleon">G-max Inteleon</string>
+    <string name="gurshifu">G-max Urshifu (dark)</string>
+
+    <string name="evolution">Evolution</string>
+    <string name="moves">Moves</string>
+    <string name="save">save</string>
+    <string name="bestteams">Best Teams</string>
+    <string name="missingpokemon">Missing Pokémon</string>
+    <string name="gen4shineis">Gen4 Shinies</string>
+    <string name="kanto">Kanto</string>
+    <string name="johto">Johto</string>
+    <string name="hoenn">Hoenn</string>
+    <string name="sinho">Sinho</string>
+    <string name="unova">Unova</string>
+    <string name="kalos">kalos</string>
+    <string name="alola">Alola</string>
+    <string name="galar">Galar</string>
+
+    <!-- Starters -->
+
+    <string name="snivy">Snivy</string>
+    <string name="tepig">Tepig</string>
+    <string name="oshawott">Oshawott</string>
+
+    <!-- Gen 4 Shinies -->
+    <string name="text1">Routes:</string>
+    <string name="starlyShiny">Starly -> Staravia -> Staraptor (Adamant/Jolly)</string>
+    <string name="bidoofShiny">Bidoof -> Bibarel (Adamant)</string>
+    <string name="kricketotShiny">Kricketot -> kricketune (Adamant)</string>
+    <string name="shinxShiny">Shinx -> Luxio -> Luxray (Adamant)</string>
+    <string name="zubatShiny">Zubat -> Golbat -> Crobat (Jolly)</string>
+    <string name="abraShiny">Abra -> Kadabra -> Alakazam (Modest)</string>
+    <string name="psyduckShiny">Psyduck -> Golduck (Timid/Modest)</string>
+    <string name="magikarpShiny">Magikarp -> Gyarados (Adamant)</string>
+    <string name="wurmpleShiny">Wurmple -> cascoon -> Dustox (bold)\n
+        silcoon -> Beautifly (Timid)</string>
+    <string name="budewShiny">Budew -> Roselia -> Rosarade (Timid/Modest)</string>
+    <string name="pachirisuShiny">Pachirisu (Impish)</string>
+    <string name="buizelShiny">Buizel -> Floatzel (Jolly)</string>
+    <string name="shellosShiny">Shellos -> Gastrodon (Quiet)</string>
+    <string name="wingullShiny">Wingull -> Pelipper (Modest)</string>
+    <string name="tentacoolShiny">Tentacool -> Tentacruel (Timid)</string>
+    <string name="finneonShiny">Finneon -> Lumineon (Bold)</string>
+    <string name="shellderShiny">Shellder -> Cloyster (Jolly)</string>
+    <string name="murkrowShiny">murkrow -> Honchkrow (Jolly)</string>
+    <string name="misdreavusShiny">Misdreavus -> Mismagius (Timid)</string>
+    <string name="bunearyShiny">Buneary -> Lopoony (Adament)</string>
+    <string name="gastlyShiny">Gastly -> Haunter -> Gengar (Timid/Modest)</string>
+    <string name="machopShiny">Machop -> Machoke -> Machamp (Adamant)</string>
+    <string name="geodudeShiny">Geodude -> Graveler -> Golem (Adamant)</string>
+    <string name="ponytaShiny">Ponyta -> Rapidash (Jolly)</string>
+    <string name="stunkyShiny">Stunky -> Skuntank (Jolly)</string>
+    <string name="onixShiny">Onix -> Steelix (Brave/Adamant)</string>
+    <string name="cleffaShiny">Cleffa -> Clefairy -> Clefable (Bold)</string>
+    <string name="medititeShiny">Meditite -> Medicham (Adamant)</string>
+    <string name="chinglingShiny">Chingling -> Chimecho (Calm)</string>
+    <string name="barboachShiny">Barboach -> Whiscash (Jolly)</string>
+    <string name="hoothootShiny">Hoothoot -> Noctowl (Modest)</string>
+    <string name="snoverShiny">Snover -> Abomasnow (Adamant)</string>
+    <string name="dratiniShiny">Dratini -> Dragonair -> Dragonite (Jolly)</string>
+    <string name="feebasShiny">Feebas -> Milotic (Timid)</string>
+    <string name="chanseyShiny">Chansey -> Blissey (Bold)</string>
+    <string name="bonslyShiny">Bonsly -> Sudowoodo (Impish)</string>
+    <string name="mimejrShiny">Mime Jr. -> Mr. Mime (Timid/Modest)</string>
+    <string name="spiritombShiny">Spiritomb (Careful/Calm)</string>
+    <string name="wooperShiny">Wooper -> Quagsire (Impish)</string>
+    <string name="remoraidShiny">Remoraid -> Octillery (Modest)</string>
+    <string name="sharpedoShiny">Sharpedo (Adamant/Jolly)</string>
+    <string name="girafarigShiny">Girafarig (Jolly)</string>
+    <string name="goldeenShiny">Goldeen -> Seaking (Adamant)</string>
+    <string name="sneaselShiny">Sneasel -> Weavile (Jolly)</string>
+    <string name="glameowShiny">Glameow -> Purugly (Jolly)</string>
+    <string name="clamperlShiny">Clamperl -> Huntail (Naughty)\n
+            Gorebyss (Modest/Timid)</string>
+    <string name="chinchouShiny">Chinchou -> Lanturn (Modest)</string>
+    <string name="chatotShiny">Chatot (Timid)</string>
+    <string name="mantykeShiny">Mantyke -> Mantine (Modest)</string>
+    <string name="wailmerShiny">Wailmer -> Wailord (Calm/Modest)</string>
+    <string name="oddishShiny">Oddish -> Gloom -> Vileplume (Bold)\n
+        Bellossom (Timid)</string>
+    <string name="bellsproutShiny">Bellsprout -> Weepinbell -> Victreebel (Timid/Modest)</string>
+    <string name="luvdiscShiny">Luvdisc (Modest/Timid)</string>
+    <string name="rattataShiny">Rattata -> Raticate (Jolly)</string>
+    <string name="spearowShiny">Spearow -> Fearow (Jolly)</string>
+    <string name="banetteShiny">Banette (adamant)</string>
+    <string name="poliwagShiny">Poliwag -> Poliwhirl -> Poliwrath (Timid)\n
+        Politoed (Calm)</string>
+    <string name="seelShiny">Seel -> Dewgong (Calm)</string>
+    <string name="sphealShiny">Spheal -> Sealeo -> Walrein (Calm)</string>
+    <string name="horseaShiny">Horsea -> Seadra -> Kingdra (Modest)</string>
+    <string name="relicanth">Relicanth (Adamant)</string>
+    <string name="weezingShiny">Weezing (Bold)</string>
+    <string name="rhyhornShiny">Rhyhorn -> Rydon -> Rhyperior (Adamant)</string>
+    <string name="skarmoryShiny">Skarmory (Bold)</string>
+    <string name="numelShiny">Numel -> Camerupt (Calm)</string>
+    <string name="diglettShiny">Diglett -> Dugtrio (Adamant/Jolly)</string>
+    <string name="cacneaShiny">Cacnea -> Cacturne (Mild)</string>
+    <string name="hippopotas">Hippopotas -> Hippowdon (Careful)</string>
+    <string name="scytherShiny">Scyther -> Scizor (Impish)</string>
+    <string name="pinsirShiny">Pinsir (Jolly)</string>
+    <string name="ledianShiny">Ledian (Jolly)</string>
+    <string name="ariadosShiny">Ariados (Jolly)</string>
+    <string name="volbeatShiny">Volbeat (Relaxed)</string>
+    <string name="illumiseShiny">Illumise (Relaxed)</string>
+    <string name="slugmaShiny">Slugma -> Magcargo (Calm)</string>
+    <string name="heatranShiny">Heatran (Modest/Timid/Calm)</string>
+    <string name="gibleShiny">Gible -> Gabite -> Garchomp (Naive/Jolly)</string>
+
+    <string name="text5">Great Marsh:</string>
+    <string name="arbokShiny">Arbok (Adamant)</string>
+    <string name="parasShiny">Paras -> Parasect (Careful)</string>
+    <string name="exeggcuteShiny">Exeggcute -> Exeggutor (Quiet) \n
+        Exeggutor Alola (Modest)</string>
+    <string name="tangelaShiny">Tangela -> Tangrowth (Sassy)</string>
+    <string name="kangaskhanShiny">Kanhaskhan (Jolly)</string>
+    <string name="azurillShiny">Azurill -> Marill -> Azumarill (Adamant)</string>
+    <string name="yanmaShiny">Yanma -> Yanmega (Timid)</string>
+    <string name="shroomishShiny">Shroomish -> Breloom (Adamant/Jolly)</string>
+    <string name="skorupiShiny">Skorupi -> Drapion (Jolly)</string>
+    <string name="croagunkShiny">Croagunk -> Toxicroak (Jolly)</string>
+    <string name="carnivineShiny">Carnivine (Jolly)</string>
+    <string name="gulpinShiny">Gulpin -> Swalot (Quiet)</string>
+    <string name="carvanhaShiny">Carvanha (Adamant/Jolly)</string>
+    <string name="kecleonShiny">Kecleon (Adamant)</string>
+    <string name="tropiusShiny">Tropius (Bold)</string>
+
+    <string name="text6">Honey Tree:</string>
+    <string name="aipomShiny">Aipom -> Ambipom (Jolly)</string>
+    <string name="burmyShiny">Burmy -> Wormadam trash (Sassy)\n
+         Mothim (Timid/Modest)</string>
+    <string name="combeeShiny">Combee -> Vespiquen (bold)</string>
+    <string name="heracrossShiny">Heracross (Adamant)</string>
+    <string name="munchlaxShiny">Munchlax -> Snorlax (Adamant)</string>
+    <string name="cherubiShiny">Cherubi -> Cherrim (Modest/Timid)</string>
+
+    <string name="text7">Trophy Garden:</string>
+    <string name="pichuShiny">Pichu -> Pikachu -> Raichu (Timid/Modest)</string>
+    <string name="eeveeShiny">Eevee - > Vaporeaon (Modest)\n
+    Jolteon (Timid)\n
+    Flareon (Adamant)\n
+    Espeon (Timid)\n
+    Umbreon (Calm)\n
+    Leafeon (Jolly)\n
+    Glaceon (Modest)\n
+    Sylveon (Modest)</string>
+    <string name="igglypuffShiny">Igglypuff -> Jigglypuff -> Wigglytuff (Timid)</string>
+    <string name="meowthShiny">Meowth -> Persian (Timid)</string>
+    <string name="porygonShiny">Porygon -> Porygon2 -> PorygonZ (Timid)</string>
+    <string name="plusleShiny">Plusle (Timid)</string>
+    <string name="minunShiny">Minun (Timid)</string>
+    <string name="castformShiny">Castform (Timid)</string>
+    <string name="happinyShiny">Happiny (Bold)</string>
+
+    <string name="text2">Swarms:</string>
+    <string name="zigzagoonShiny">Zigzagoon -> Linoone (Adamant)</string>
+    <string name="cuboneShiny">Cubone -> Marowak (Brave)</string>
+    <string name="slakothShiny">Slakoth -> Vigoroth -> Slaking (Adamant/Jolly)</string>
+    <string name="nosepassShiny">Nosepass -> Probopass (Modest)</string>
+    <string name="phanpyShiny">Phanpy -> Donphan (adamant)</string>
+    <string name="dunsparceShiny">Dunsparce (Adamant)</string>
+    <string name="snubbullShiny">Snubbull -> Granbull (Adamant)</string>
+    <string name="spoinkShiny">Spoink -> Grumpig (Timid)</string>
+    <string name="drowzeeShiny">Drowzee -> Hypno (Jolly)</string>
+    <string name="delibirdShiny">Delibird (Timid)</string>
+    <string name="swinubShiny">Swinub -> Piloswine -> Mamoswine (Adamant/Jolly)</string>
+    <string name="voltorbShiny">Voltorb -> Electrode (Jolly/Timid)</string>
+    <string name="farfetchShiny">Farfetch\'d (Adamant)</string>
+    <string name="skittyShiny">Skitty -> Delcatty (Jolly)</string>
+    <string name="natuShiny">Natu -> Xatu (Impish)</string>
+    <string name="makuhitaShiny">Makuhita -> Hariyama (Adamant)</string>
+    <string name="krabbyShiny">Krabby -> Kingler (Adamant/Jolly)</string>
+    <string name="spindaShiny">Spinda (Brave)</string>
+    <string name="pidgeyShiny">Pidgey -> Pidgeotto -> Pidgeot (Timid)</string>
+    <string name="corsolaShiny">Corsola (Bold)</string>
+
+    <string name="text3">Dual-slot Ruby:</string>
+    <string name="lotadShiny">Lotad -> Lombre -> Ludicolo (Modest/Timid)</string>
+    <string name="zangooseShiny">Zangoose (Adamant/Jolly)</string>
+
+    <string name="text4">Dual-slot Sapphire:</string>
+    <string name="seedotShiny">Seedot -> Nuzleaf -> Shifftry (Adamant)</string>
+    <string name="seviperShiny">Seviper (Naughty)</string>
+
 </resources>
+
